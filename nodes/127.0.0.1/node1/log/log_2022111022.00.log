@@ -1,0 +1,46 @@
+info|2022-11-10 22:00:20.082368|[P2P][Service] heartBeat,connected count=3
+error|2022-11-10 22:00:20.082478|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:30303
+info|2022-11-10 22:00:20.082497|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30303
+warning|2022-11-10 22:00:20.082518|[NETWORK][Session][drop] closing remote 127.0.0.1:30303,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:30303
+error|2022-11-10 22:00:20.082597|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:30302
+info|2022-11-10 22:00:20.082608|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30302
+warning|2022-11-10 22:00:20.082618|[NETWORK][Session][drop] closing remote 127.0.0.1:30302,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:30302
+error|2022-11-10 22:00:20.082666|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:30300
+info|2022-11-10 22:00:20.082676|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30300
+warning|2022-11-10 22:00:20.082685|[NETWORK][Session][drop] closing remote 127.0.0.1:30300,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:30300
+error|2022-11-10 22:00:20.082729|[NETWORK][Session]Session inactived
+error|2022-11-10 22:00:20.082737|[NETWORK][Session]Session inactived
+error|2022-11-10 22:00:20.082744|[NETWORK][Session]Session inactived
+warning|2022-11-10 22:00:20.082763|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30303,message=short read
+warning|2022-11-10 22:00:20.082778|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30300,message=short read
+warning|2022-11-10 22:00:20.082789|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30302,message=short read
+error|2022-11-10 22:00:20.082802|[NETWORK][Session]Session inactived
+warning|2022-11-10 22:00:20.082809|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+error|2022-11-10 22:00:20.082820|[NETWORK][Session]Session inactived
+warning|2022-11-10 22:00:20.082826|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+error|2022-11-10 22:00:20.082833|[NETWORK][Session]Session inactived
+warning|2022-11-10 22:00:20.082839|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+warning|2022-11-10 22:00:20.083694|[P2P][Service] disconnect error P2PSession,nodeID=8170ed0b...,endpoint=127.0.0.1:30303,errorCode=3,what=Disconnect
+warning|2022-11-10 22:00:20.083837|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2022-11-10 22:00:20.083872|[P2P][Service] disconnect error P2PSession,nodeID=54e27343...,endpoint=127.0.0.1:30302,errorCode=3,what=Disconnect
+warning|2022-11-10 22:00:20.083886|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2022-11-10 22:00:20.083901|[P2P][Service] disconnect error P2PSession,nodeID=74ec5d39...,endpoint=127.0.0.1:30300,errorCode=3,what=Disconnect
+warning|2022-11-10 22:00:20.083925|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2022-11-10 22:00:20.084050|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=59922,toV=59923,curNum=19,hash=bcafa72f...,nodeIdx=3,myNode=c30b6e4f...
+warning|2022-11-10 22:00:20.084081|[g:1][CONSENSUS][PBFT]Find disconnectedNode,disconnectedNodeSize=3,sessionSize=0,minValidNodes=3,connectedNodeList=,disconnectedNode=54e27343..., 74ec5d39..., 8170ed0b..., ,idx=3
+info|2022-11-10 22:00:20.084132|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=59922,toView=59923,nodeIdx=3,changeCycle=2,myNode=c30b6e4f...,timecost=1
+warning|2022-11-10 22:00:20.087690|[g:1][P2P][Service] Node inactived,nodeID=54e27343...
+warning|2022-11-10 22:00:20.087738|[g:1][P2P][Service] Node inactived,nodeID=8170ed0b...
+warning|2022-11-10 22:00:20.087754|[g:1][P2P][Service] Node inactived,nodeID=74ec5d39...
+warning|2022-11-10 22:00:20.090343|[g:1][P2P][Service] Node inactived,nodeID=54e27343...
+warning|2022-11-10 22:00:20.090363|[g:1][P2P][Service] Node inactived,nodeID=74ec5d39...
+warning|2022-11-10 22:00:20.090370|[g:1][P2P][Service] Node inactived,nodeID=8170ed0b...
+warning|2022-11-10 22:00:26.833412|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=59922,toV=59924,curNum=19,hash=bcafa72f...,nodeIdx=3,myNode=c30b6e4f...
+warning|2022-11-10 22:00:26.833470|[g:1][CONSENSUS][PBFT]Find disconnectedNode,disconnectedNodeSize=3,sessionSize=0,minValidNodes=3,connectedNodeList=,disconnectedNode=54e27343..., 74ec5d39..., 8170ed0b..., ,idx=3
+info|2022-11-10 22:00:26.833534|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=59922,toView=59924,nodeIdx=3,changeCycle=3,myNode=c30b6e4f...,timecost=1

@@ -1,0 +1,63 @@
+warning|2022-11-08 18:01:28.209932|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=17404,toV=17413,curNum=17,hash=9161a424...,nodeIdx=1,myNode=74ec5d39...
+warning|2022-11-08 18:01:28.209985|[g:1][CONSENSUS][PBFT]Find disconnectedNode,disconnectedNodeSize=2,sessionSize=1,minValidNodes=3,connectedNodeList=127.0.0.1:30302, ,disconnectedNode=8170ed0b..., c30b6e4f..., ,idx=1
+info|2022-11-08 18:01:28.210112|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=17404,toView=17413,nodeIdx=1,changeCycle=14,myNode=74ec5d39...,timecost=1
+info|2022-11-08 18:01:28.213177|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2022-11-08 18:01:28.213622|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2022-11-08 18:01:28.213701|[P2P][Service] heartBeat,connected count=1
+error|2022-11-08 18:01:28.213769|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:30302
+info|2022-11-08 18:01:28.213791|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30302
+warning|2022-11-08 18:01:28.213811|[NETWORK][Session][drop] closing remote 127.0.0.1:30302,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:30302
+error|2022-11-08 18:01:28.213965|[NETWORK][Session]Session inactived
+warning|2022-11-08 18:01:28.213985|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30302,message=Operation canceled
+warning|2022-11-08 18:01:28.217891|[P2P][Service] disconnect error P2PSession,nodeID=54e27343...,endpoint=127.0.0.1:30302,errorCode=3,what=Disconnect
+warning|2022-11-08 18:01:28.217929|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+info|2022-11-08 18:01:28.218022|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2022-11-08 18:01:28.218208|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+warning|2022-11-08 18:01:28.218268|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+info|2022-11-08 18:01:28.218292|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:53506
+info|2022-11-08 18:01:28.218507|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30300
+info|2022-11-08 18:01:28.227393|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:53510
+info|2022-11-08 18:01:28.227487|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30300
+error|2022-11-08 18:01:28.230692|[NETWORK][Host]Get ca basic failed
+error|2022-11-08 18:01:28.237390|[NETWORK][Host]Get ca basic failed
+error|2022-11-08 18:01:28.242199|[NETWORK][Host]Get ca basic failed
+info|2022-11-08 18:01:28.247020|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:53506
+info|2022-11-08 18:01:28.247060|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:53506,local endpoint=127.0.0.1:30300,nodeID=c30b6e4f...
+info|2022-11-08 18:01:28.247257|[P2P][Service] Connection established,nodeID=c30b6e4f...,endpoint=127.0.0.1:53506
+error|2022-11-08 18:01:28.247268|[NETWORK][Host]Get ca basic failed
+info|2022-11-08 18:01:28.250510|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:53509
+info|2022-11-08 18:01:28.250541|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30303,local endpoint=127.0.0.1:53509,nodeID=8170ed0b...
+info|2022-11-08 18:01:28.250589|[P2P][Service] Connection established,nodeID=8170ed0b...,endpoint=127.0.0.1:30303
+info|2022-11-08 18:01:28.250621|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:53510
+info|2022-11-08 18:01:28.250640|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:53510,local endpoint=127.0.0.1:30300,nodeID=8170ed0b...
+info|2022-11-08 18:01:28.250781|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:53508
+info|2022-11-08 18:01:28.250803|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30301,local endpoint=127.0.0.1:53508,nodeID=c30b6e4f...
+info|2022-11-08 18:01:28.251160|[NETWORK][Session]Received topic: [163	_block_notify_1] from c30b6e4f7217137914bd3298cfd2e166b062fd2f06dff8645f399620a540a0d69bab3db9018c71c03ba2953013245a97bc79e3ce3a4b16e728a4b488eaa56291
+error|2022-11-08 18:01:28.672428|[CHANNEL][SESSION]Idle connection, disconnect 127.0.0.1:53491
+warning|2022-11-08 18:01:28.672499|[CHANNEL]onClientRequest,errorCode=-1,what=Idle connection, disconnect
+error|2022-11-08 18:01:28.672652|[CHANNEL][SESSION]ChannelSession inactived
+error|2022-11-08 18:01:28.736175|[CHANNEL][SESSION]ChannelSession inactived
+warning|2022-11-08 18:01:28.738460|async_shutdown,message=End of file
+info|2022-11-08 18:01:33.245109|[NETWORK][Session]Received topic: [164] from c30b6e4f7217137914bd3298cfd2e166b062fd2f06dff8645f399620a540a0d69bab3db9018c71c03ba2953013245a97bc79e3ce3a4b16e728a4b488eaa56291
+info|2022-11-08 18:01:38.216072|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2022-11-08 18:01:38.216190|[P2P][Service] heartBeat,connected count=2
+info|2022-11-08 18:01:38.216477|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2022-11-08 18:01:38.217310|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:53551
+info|2022-11-08 18:01:38.217444|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30300
+error|2022-11-08 18:01:38.219630|[NETWORK][Host]Get ca basic failed
+error|2022-11-08 18:01:38.225585|[NETWORK][Host]Get ca basic failed
+info|2022-11-08 18:01:38.228945|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:53551
+info|2022-11-08 18:01:38.228984|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:53551,local endpoint=127.0.0.1:30300,nodeID=54e27343...
+info|2022-11-08 18:01:38.229079|[P2P][Service] Connection established,nodeID=54e27343...,endpoint=127.0.0.1:53551
+info|2022-11-08 18:01:38.243268|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:53550
+info|2022-11-08 18:01:38.243309|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30302,local endpoint=127.0.0.1:53550,nodeID=54e27343...
+warning|2022-11-08 18:01:38.243464|[NETWORK][Session]doRead error,endpoint=127.0.0.1:53551,message=short read
+info|2022-11-08 18:01:38.243514|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:53551
+warning|2022-11-08 18:01:38.243526|[NETWORK][Session][drop] closing remote 127.0.0.1:53551,reason=Low-level TCP communication error.,endpoint=127.0.0.1:53551
+warning|2022-11-08 18:01:38.243539|[P2P][Service] disconnect error P2PSession,nodeID=54e27343...,endpoint=127.0.0.1:53551,errorCode=3,what=Disconnect
+warning|2022-11-08 18:01:38.243560|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2022-11-08 18:01:38.243602|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor

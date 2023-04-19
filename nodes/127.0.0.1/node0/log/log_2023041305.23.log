@@ -1,0 +1,116 @@
+warning|2023-04-13 05:23:22.022739|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=40616,toV=40617,curNum=211,hash=275e4452...,nodeIdx=1,myNode=74ec5d39...
+info|2023-04-13 05:23:22.022972|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40616,toView=40617,nodeIdx=1,changeCycle=2,myNode=74ec5d39...,timecost=0
+info|2023-04-13 05:23:22.028840|[P2P][Service] heartBeat,connected count=3
+error|2023-04-13 05:23:22.028860|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:30303
+info|2023-04-13 05:23:22.028919|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30303
+warning|2023-04-13 05:23:22.028941|[NETWORK][Session][drop] closing remote 0.0.0.0:0,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:30303
+error|2023-04-13 05:23:22.028985|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:63611
+info|2023-04-13 05:23:22.028993|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:63611
+warning|2023-04-13 05:23:22.029056|[NETWORK][Session][drop] closing remote 127.0.0.1:63611,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:63611
+error|2023-04-13 05:23:22.029134|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:30301
+info|2023-04-13 05:23:22.029145|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30301
+warning|2023-04-13 05:23:22.029162|[NETWORK][Session][drop] closing remote 127.0.0.1:30301,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:30301
+error|2023-04-13 05:23:22.029236|[NETWORK][Session]Session inactived
+error|2023-04-13 05:23:22.029245|[NETWORK][Session]Session inactived
+error|2023-04-13 05:23:22.029252|[NETWORK][Session]Session inactived
+warning|2023-04-13 05:23:22.029273|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30303,message=Connection reset by peer
+error|2023-04-13 05:23:22.029371|[NETWORK][Session]Session inactived
+warning|2023-04-13 05:23:22.029380|[NETWORK][Session]doRead error,endpoint=127.0.0.1:63611,message=Operation canceled
+warning|2023-04-13 05:23:22.029389|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30301,message=Operation canceled
+warning|2023-04-13 05:23:22.032552|[P2P][Service] disconnect error P2PSession,nodeID=8170ed0b...,endpoint=127.0.0.1:30303,errorCode=3,what=Disconnect
+warning|2023-04-13 05:23:22.032577|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2023-04-13 05:23:22.032599|[P2P][Service] disconnect error P2PSession,nodeID=54e27343...,endpoint=127.0.0.1:63611,errorCode=3,what=Disconnect
+warning|2023-04-13 05:23:22.032611|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2023-04-13 05:23:22.032623|[P2P][Service] disconnect error P2PSession,nodeID=c30b6e4f...,endpoint=127.0.0.1:30301,errorCode=3,what=Disconnect
+warning|2023-04-13 05:23:22.032632|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2023-04-13 05:23:22.040136|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+warning|2023-04-13 05:23:22.040152|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+warning|2023-04-13 05:23:22.040158|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+warning|2023-04-13 05:23:28.476271|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=40616,toV=40618,curNum=211,hash=275e4452...,nodeIdx=1,myNode=74ec5d39...
+warning|2023-04-13 05:23:28.476307|[g:1][CONSENSUS][PBFT]Find disconnectedNode,disconnectedNodeSize=3,sessionSize=0,minValidNodes=3,connectedNodeList=,disconnectedNode=54e27343..., 8170ed0b..., c30b6e4f..., ,idx=1
+info|2023-04-13 05:23:28.476342|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40616,toView=40618,nodeIdx=1,changeCycle=3,myNode=74ec5d39...,timecost=0
+info|2023-04-13 05:23:32.030235|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2023-04-13 05:23:32.030440|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2023-04-13 05:23:32.030567|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30303
+info|2023-04-13 05:23:32.030760|[P2P][Service] heartBeat,connected count=0
+info|2023-04-13 05:23:32.031416|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2023-04-13 05:23:32.032014|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2023-04-13 05:23:32.032610|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30303
+info|2023-04-13 05:23:32.035946|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:63734
+info|2023-04-13 05:23:32.040543|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30300
+error|2023-04-13 05:23:32.040899|[NETWORK][Host]Get ca basic failed
+info|2023-04-13 05:23:32.048362|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:63739
+info|2023-04-13 05:23:32.048431|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30300
+error|2023-04-13 05:23:32.048693|[NETWORK][Host]Get ca basic failed
+error|2023-04-13 05:23:32.054831|[NETWORK][Host]Get ca basic failed
+info|2023-04-13 05:23:32.060542|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:63738
+info|2023-04-13 05:23:32.060595|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30300
+info|2023-04-13 05:23:32.060776|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:63733
+info|2023-04-13 05:23:32.060805|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30301,local endpoint=127.0.0.1:63733,nodeID=c30b6e4f...
+info|2023-04-13 05:23:32.060900|[P2P][Service] Connection established,nodeID=c30b6e4f...,endpoint=127.0.0.1:30301
+error|2023-04-13 05:23:32.064108|[NETWORK][Host]Get ca basic failed
+info|2023-04-13 05:23:32.068406|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:63734
+info|2023-04-13 05:23:32.068447|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:63734,local endpoint=127.0.0.1:30300,nodeID=c30b6e4f...
+info|2023-04-13 05:23:32.068535|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:63735
+info|2023-04-13 05:23:32.068554|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30302,local endpoint=127.0.0.1:63735,nodeID=54e27343...
+info|2023-04-13 05:23:32.068584|[P2P][Service] Connection established,nodeID=54e27343...,endpoint=127.0.0.1:30302
+info|2023-04-13 05:23:32.068622|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:63736
+info|2023-04-13 05:23:32.068660|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30303,local endpoint=127.0.0.1:63736,nodeID=8170ed0b...
+info|2023-04-13 05:23:32.068689|[P2P][Service] Connection established,nodeID=8170ed0b...,endpoint=127.0.0.1:30303
+error|2023-04-13 05:23:32.068903|[NETWORK][Host]Get ca basic failed
+info|2023-04-13 05:23:32.072539|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:63738
+info|2023-04-13 05:23:32.072572|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:63738,local endpoint=127.0.0.1:30300,nodeID=54e27343...
+error|2023-04-13 05:23:32.072776|[NETWORK][Host]Get ca basic failed
+info|2023-04-13 05:23:32.074812|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:63739
+info|2023-04-13 05:23:32.074835|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:63739,local endpoint=127.0.0.1:30300,nodeID=8170ed0b...
+info|2023-04-13 05:23:32.075199|[NETWORK][Session]Received topic: [209] from c30b6e4f7217137914bd3298cfd2e166b062fd2f06dff8645f399620a540a0d69bab3db9018c71c03ba2953013245a97bc79e3ce3a4b16e728a4b488eaa56291
+warning|2023-04-13 05:23:38.603950|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=40616,toV=40619,curNum=211,hash=275e4452...,nodeIdx=1,myNode=74ec5d39...
+info|2023-04-13 05:23:38.605853|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40616,toView=40619,nodeIdx=1,changeCycle=4,myNode=74ec5d39...,timecost=6
+info|2023-04-13 05:23:38.628610|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40616,cur_changeCycle=4,curView=40616,view=40619
+info|2023-04-13 05:23:39.648773|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=2,hash=16ca8982...,time=0
+info|2023-04-13 05:23:39.653630|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40619,toView=40620,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=4
+info|2023-04-13 05:23:39.670169|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40619,cur_changeCycle=1,curView=40619,view=40620
+info|2023-04-13 05:23:40.688263|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=3,hash=52c8381d...,time=0
+info|2023-04-13 05:23:40.693056|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40620,toView=40621,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=5
+info|2023-04-13 05:23:40.711832|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40620,cur_changeCycle=1,curView=40620,view=40621
+info|2023-04-13 05:23:41.732514|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=0,hash=ae3a9cd7...,time=0
+info|2023-04-13 05:23:41.739242|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40621,toView=40622,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=5
+info|2023-04-13 05:23:41.754530|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40621,cur_changeCycle=1,curView=40621,view=40622
+info|2023-04-13 05:23:42.033050|[P2P][Service] heartBeat,connected count=3
+info|2023-04-13 05:23:42.757601|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=212,tx=0,nodeIdx=1,hash=9d74f8f5...
+info|2023-04-13 05:23:42.781787|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40622,toView=40623,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=3
+info|2023-04-13 05:23:42.801022|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40622,cur_changeCycle=1,curView=40622,view=40623
+info|2023-04-13 05:23:43.841519|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=2,hash=7411787e...,time=0
+info|2023-04-13 05:23:43.847114|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40623,toView=40624,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=5
+info|2023-04-13 05:23:43.884881|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40623,cur_changeCycle=1,curView=40623,view=40624
+info|2023-04-13 05:23:44.924462|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=3,hash=dc21668a...,time=0
+info|2023-04-13 05:23:44.929036|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40624,toView=40625,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=4
+info|2023-04-13 05:23:44.944826|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40624,cur_changeCycle=1,curView=40624,view=40625
+info|2023-04-13 05:23:45.978645|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=0,hash=4af687dd...,time=0
+info|2023-04-13 05:23:45.987315|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40625,toView=40626,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=8
+info|2023-04-13 05:23:46.003459|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40625,cur_changeCycle=1,curView=40625,view=40626
+info|2023-04-13 05:23:47.004758|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=212,tx=0,nodeIdx=1,hash=e051ca45...
+info|2023-04-13 05:23:47.025396|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40626,toView=40627,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=4
+info|2023-04-13 05:23:47.055824|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40626,cur_changeCycle=1,curView=40626,view=40627
+info|2023-04-13 05:23:48.069678|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=2,hash=18ef471d...,time=0
+info|2023-04-13 05:23:48.075538|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40627,toView=40628,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=5
+info|2023-04-13 05:23:48.089152|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40627,cur_changeCycle=1,curView=40627,view=40628
+info|2023-04-13 05:23:49.117441|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=3,hash=b8b2d576...,time=0
+info|2023-04-13 05:23:49.124781|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40628,toView=40629,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=6
+info|2023-04-13 05:23:49.144468|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40628,cur_changeCycle=1,curView=40628,view=40629
+info|2023-04-13 05:23:50.155339|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=0,hash=9c5115c6...,time=0
+info|2023-04-13 05:23:50.161638|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40629,toView=40630,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=6
+info|2023-04-13 05:23:50.177869|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40629,cur_changeCycle=1,curView=40629,view=40630
+info|2023-04-13 05:23:51.180973|[g:1][CONSENSUS][SEALER]++++++++++++++++ Generating seal on,blkNum=212,tx=0,nodeIdx=1,hash=42d515f6...
+info|2023-04-13 05:23:51.203670|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40630,toView=40631,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=4
+info|2023-04-13 05:23:51.216396|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40630,cur_changeCycle=1,curView=40630,view=40631
+info|2023-04-13 05:23:52.033980|[P2P][Service] heartBeat,connected count=3
+info|2023-04-13 05:23:52.234862|[g:1][CONSENSUS]addRawPrepare,height=212,reqIdx=2,hash=4c713cf5...,time=0
+info|2023-04-13 05:23:52.239041|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=40631,toView=40632,nodeIdx=1,changeCycle=1,myNode=74ec5d39...,timecost=4
+info|2023-04-13 05:23:52.266552|[g:1][CONSENSUS][PBFT]checkAndChangeView: Reach consensus,org_view=40631,cur_changeCycle=1,curView=40631,view=40632

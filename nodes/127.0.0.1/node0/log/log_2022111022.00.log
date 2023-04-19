@@ -1,0 +1,36 @@
+warning|2022-11-10 22:00:20.077991|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=59922,toV=59923,curNum=19,hash=bcafa72f...,nodeIdx=1,myNode=74ec5d39...
+info|2022-11-10 22:00:20.078193|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=59922,toView=59923,nodeIdx=1,changeCycle=2,myNode=74ec5d39...,timecost=1
+info|2022-11-10 22:00:20.079969|[P2P][Service] heartBeat,connected count=3
+error|2022-11-10 22:00:20.080026|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:55889
+info|2022-11-10 22:00:20.080037|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:55889
+warning|2022-11-10 22:00:20.080057|[NETWORK][Session][drop] closing remote 127.0.0.1:55889,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:55889
+error|2022-11-10 22:00:20.080197|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:55892
+info|2022-11-10 22:00:20.080215|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:55892
+warning|2022-11-10 22:00:20.080232|[NETWORK][Session][drop] closing remote 127.0.0.1:55892,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:55892
+error|2022-11-10 22:00:20.080304|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:55886
+info|2022-11-10 22:00:20.080315|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:55886
+warning|2022-11-10 22:00:20.080331|[NETWORK][Session][drop] closing remote 127.0.0.1:55886,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:55886
+error|2022-11-10 22:00:20.080384|[NETWORK][Session]Session inactived
+error|2022-11-10 22:00:20.080392|[NETWORK][Session]Session inactived
+error|2022-11-10 22:00:20.080397|[NETWORK][Session]Session inactived
+warning|2022-11-10 22:00:20.080421|[NETWORK][Session]doRead error,endpoint=127.0.0.1:55889,message=Operation canceled
+warning|2022-11-10 22:00:20.080433|[NETWORK][Session]doRead error,endpoint=127.0.0.1:55892,message=Operation canceled
+warning|2022-11-10 22:00:20.080441|[NETWORK][Session]doRead error,endpoint=127.0.0.1:55886,message=Operation canceled
+warning|2022-11-10 22:00:20.082184|[P2P][Service] disconnect error P2PSession,nodeID=54e27343...,endpoint=127.0.0.1:55889,errorCode=3,what=Disconnect
+warning|2022-11-10 22:00:20.082219|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2022-11-10 22:00:20.082251|[P2P][Service] disconnect error P2PSession,nodeID=8170ed0b...,endpoint=127.0.0.1:55892,errorCode=3,what=Disconnect
+warning|2022-11-10 22:00:20.082426|[P2P][Service] disconnect error P2PSession,nodeID=c30b6e4f...,endpoint=127.0.0.1:55886,errorCode=3,what=Disconnect
+warning|2022-11-10 22:00:20.082292|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2022-11-10 22:00:20.084022|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2022-11-10 22:00:20.084151|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+warning|2022-11-10 22:00:20.084168|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+warning|2022-11-10 22:00:20.084177|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+warning|2022-11-10 22:00:26.833539|[g:1][CONSENSUS][PBFT]ViewChangeWarning: not caused by omit empty block ,v=59922,toV=59924,curNum=19,hash=bcafa72f...,nodeIdx=1,myNode=74ec5d39...
+warning|2022-11-10 22:00:26.833593|[g:1][CONSENSUS][PBFT]Find disconnectedNode,disconnectedNodeSize=3,sessionSize=0,minValidNodes=3,connectedNodeList=,disconnectedNode=54e27343..., 8170ed0b..., c30b6e4f..., ,idx=1
+info|2022-11-10 22:00:26.833658|[g:1][CONSENSUS][PBFT]checkTimeout Succ,view=59922,toView=59924,nodeIdx=1,changeCycle=3,myNode=74ec5d39...,timecost=1
